@@ -1,0 +1,63 @@
+body {
+    font-family: 'Cormorant', serif;
+    font-size: larger;
+    margin: 0%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: rgb(238, 106, 62);
+}
+
+.Myname {
+    color: blue;
+}
+
+.heading {
+    background-color: rgb(179, 235, 245);
+    padding: 4%;
+}
+
+.pictures {
+    padding: 2%;
+}
+
+.townPhoto {
+    border-radius: 5%;
+}
+
+.myPhoto {
+    border-radius: 50px;
+}
+
+.tableFon {
+    background-color: rgb(168, 255, 233);
+    width: 50%;
+}
+
+.textarea {
+    margin: 0px;
+    width: 484px;
+    height: 183px
+}
+.videoBackground {
+    padding: 1%;
+}
+.myvideo {
+    border-radius: 5%;
+}
+.Ending {
+    background-color: rgb(243, 250, 204); 
+    margin-right: 70%;
+     padding: 4px;
+
+}
