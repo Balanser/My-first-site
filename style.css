@@ -25,6 +25,7 @@ h2 {
 .heading {
     background-color: rgb(179, 235, 245);
     padding: 4%;
+    width: 100%;
 }
 
 .pictures {
