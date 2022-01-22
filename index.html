@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моя биография</title>
+    <!-- шрифт -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600&family=Cormorant:wght@500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="heading">
+        <!-- привет -->
+
+
+        <h1>Моя биография. 😀</h1>
+
+        <hr>
+        <div class="Yvlicheniya">
+            <div class="Myphoto-div">
+                <h2 class="Myname"><strong>
+                        Дмитрий Ведерников
+                    </strong>
+                </h2>
+                <img src="img/my photo.jpg" width="350" height="400" alt="моё фото" class="myPhoto">
+            </div>
+
+
+
+            <div>
+                <p>Всем привет! <font color="purpule">Это страница моей биографии.</font> 📗<br>
+                    Для начала будем знакомы, меня зовут Дима.
+                </p>
+                <h3><strong>Увлечения</strong></h3>
+                <ul>
+                    <li>Мне нравится <font color="green"> программировать💻</font>. Я учусь программированию на java уже
+                        3
+                        года.
+                    </li>
+                    <li>Так же я немного узучаю python и сейчас стараюсь изучать HTML.</li>
+                    <!-- в процессе -->
+                    <li>Так же я играю в <font color="green">шахматы</font> с 7 лет и уже довольно хорошо играю ♟.</li>
+                    <!-- я бы сыграл с вами -->
+                    <li>А ещё я люблю заниматься <font color="green">видео-монтажём</font>. Учусь видео уже 3 года и у
+                        меня
+                        не
+                        плохо получается🎬.</li>
+                    <!-- у меня не плохо получается монтировать -->
+                </ul>
+            </div>
+        </div>
+        <hr>
+
+
+
+        <table border="1" class="tableFon">
+            <tbody>
+                <tr>
+                    <td>Уроки</td>
+                    <td>Моя оценка (предмета)</td>
+                    <td>Моя оценка (по предмету)</td>
+                    <td>Сложность</td>
+                    <td>Сколько раз в неделю</td>
+                </tr>
+                <tr>
+                    <td>Алгебра</td>
+                    <td>8/10
+                        Много букв</td>
+                    <td>5</td>
+                    <td> 5/10 Ну это только для меня</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Геометрия</td>
+                    <td>9/10
+                    </td>
+                    <td>5</td>
+                    <td>6/10</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Русский Язык</td>
+                    <td>7/10
+                    </td>
+                    <td>5</td>
+                    <td>4/10</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Английский Язык</td>
+                    <td>10/10 I so like speak English</td>
+                    <td>5</td>
+                    <td>6.5/10</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>История</td>
+                    <td>3/10
+                        Сложно...</td>
+                    <td>5</td>
+                    <td>8/10</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Обществознание</td>
+                    <td>9/10 Это полезно, но скучновато</td>
+                    <td>5</td>
+                    <td>7/10</td>
+                    <td>1</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form action="/action.php">
+            <h2>Обратная связь</h2>
+            <label for="username"> Имя пользователя:</label> <br>
+            <input type="text" id="username" name="name">
+            <br>
+            <label for="email"> Электронная почта:</label> <br>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="phone"> Телефон:</label> <br>
+            <input type="tel" id="phone" name="phone">
+            <br>
+            <label for="otsiv"> Отзыв:</label> <br>
+            <textarea name="otsiv" id="otsiv" cols="30" rows="10" class="textarea"></textarea>
+            <br>
+
+            <button type="submit"> Отправить</button>
+            <hr>
+            <center>
+                <p>
+                    <font size="4">
+                        Вот пример моего видео:
+                    </font>
+                </p>
+                <div class="videoBackground">
+                    <video src="video/My vidio.mp4" controls width=700 height="400" alt="моё видео с видами природы"
+                        class="myvideo">
+                    </video>
+                </div>
+            </center>
+            <div class="Ending">
+
+                <a href="https://vk.com/dmitryvideos">
+                    ссылка на мой Вконтакте
+                </a>
+                <p>Мой номер телефона:
+                    +79613871301 📱
+                </p>
+            </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+body {
+    font-family: 'Cormorant', serif;
+    font-size: larger;
+    margin: 0%;
+    background-image: url(img/bg-lightl-901.jpg);
+    
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+table {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    color: rgb(238, 106, 62);
+}
+
+.Myname {
+    color: blue;
+}
+
+.heading {
+   
+    padding: 4%;
+    width: 100%;
+}
+
+.pictures {
+    padding: 2%;
+}
+
+.townPhoto {
+    border-radius: 5%;
+}
+
+.myPhoto {
+    border-radius: 50px;
+    
+}
+.Myphoto-div {
+    margin-right: 30px;
+}
+.Yvlicheniya {
+     display: flex; 
+}
+
+.tableFon {
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+.textarea {
+    margin: 0px;
+    width: 484px;
+    height: 183px
+}
+.videoBackground {
+    padding: 1%;
+}
+.myvideo {
+    border-radius: 5%;
+}
+.Ending {
+    background-color: rgba(250, 246, 186, 0.692); 
+    margin-right: 70%;
+     padding: 4px;
+
+}
