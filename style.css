@@ -51,6 +51,7 @@ h2 {
 .tableFon {
     background-color: rgb(255, 255, 255);
     width: 50%;
+   
 }
 
 .textarea {
@@ -62,11 +63,17 @@ h2 {
     padding: 1%;
 }
 .myvideo {
-    border-radius: 5%;
+    border-radius: 50px;
 }
 .Ending {
     background-color: rgba(250, 246, 186, 0.692); 
     margin-right: 70%;
      padding: 4px;
 
+}
+form button {
+    background-color: rgb(247, 201, 186);
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
 }
